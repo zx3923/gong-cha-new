@@ -8,6 +8,45 @@
   position: relative;
 }
 
+.redbox {
+  width: 335px;
+  height: 37px;
+  background: #983b43;
+  position: absolute;
+  top: -27px;
+  margin-left: 870px;
+  display: flex;
+  align-items: flex-start;
+}
+
+
+.home {
+  margin-top: 13px;
+  margin-left: 15px;
+  margin-right: 5px;
+  z-index: 55;
+}
+
+.arrow {
+  margin: 0 5px;
+  margin-top: 15px;
+}
+
+.menu {
+  color: #ffafbf;
+  font-size: 14px;
+  padding: 3px;
+  margin: 0 5px;
+  margin-top: 6px;
+}
+
+.orderMenu {
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 8px;
+}
+
 .headText {
   font-size: 26px;
   font-weight: 600;

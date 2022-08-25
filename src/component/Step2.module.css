@@ -2,6 +2,7 @@
   background-image: url(../component/img/order_method_step2_back.jpg);
   background-position: center;
   display: flex;
+  width: 100%;
 }
 
 .step_body {
@@ -44,6 +45,7 @@
 .step_img {
   width: 100%;
   margin: 0 0 -20px;
+  margin-top: 40px;
   overflow: hidden;
 }
 
@@ -56,6 +58,11 @@
   background: #ffffff;
   float: left;
   text-align: center;
+}
+
+.step_img > li > img {
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .step_img > li:nth-child(3) {

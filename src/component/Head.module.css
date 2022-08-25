@@ -1,5 +1,6 @@
 .pageTop {
   background-image: url(./img/page_top_visual_menu.jpg);
+  width: 100%;
 }
 
 .page {
@@ -23,40 +24,4 @@
   position: absolute;
   margin-top: 155px;
   font-weight: 700;
-}
-
-.redbox {
-  width: 335px;
-  height: 37px;
-  position: absolute;
-  right: 50%;
-  bottom: -18px;
-  z-index: 100;
-  margin: 0 -600px 0 0;
-  background: #983b43;
-  display: flex;
-  align-items: center;
-}
-
-.home {
-  display: block;
-  width: 13px;
-  height: 37px;
-  float: left;
-  padding: 10px;
-  margin-top: 18px;
-}
-
-.menu {
-  color: #ffafbf;
-  font-size: 14px;
-  padding: 3px;
-  margin: 0 5px;
-}
-
-.orderMenu {
-  font-weight: 700;
-  font-size: 14px;
-  color: #ffffff;
-  padding: 10px;
 }

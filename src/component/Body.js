@@ -1,10 +1,23 @@
 import React from "react";
 import styles from "./Body.module.css";
 import img from "./img/order_method_head_visual.png";
+import img1 from "./img/location_brand_home.png";
+import img2 from "./img/location_brand_arr.png";
 const Body = () => {
   return (
     <>
       <div className={styles.pageBody}>
+        <div className={styles.redbox}>
+          <a href="/">
+            <img src={img1} alt="" className={styles.home} />
+          </a>
+          <img src={img2} alt="" className={styles.arrow} />
+          <a href="#" className={styles.menu}>
+            <span>메뉴</span>
+          </a>
+          <img src={img2} alt="" className={styles.arrow} />
+          <span className={styles.orderMenu}>주문방법</span>
+        </div>
         <div className={styles.headText} data-aos="fade-right">
           공차가 처음이신가요?
         </div>
