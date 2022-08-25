@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./Step1.module.css";
 import img1 from "./img/order_method_img1_1.png";
 import img2 from "./img/order_method_img1_3.png";
@@ -6,6 +6,16 @@ import img3 from "./img/order_method_img1_4.png";
 import img4 from "./img/order_method_img1_6.png";
 
 const Step1 = () => {
+  const [position, setPosition] = useState(0);
+  function onScroll() {
+    setPosition(window.scrollY);
+  }
+  useEffect(() => {
+    window.addEventListener("scroll", onScroll);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+    };
+  }, []);
   return (
     <>
       <div className={styles.step_1}>
