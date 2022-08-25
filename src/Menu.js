@@ -1,9 +1,9 @@
-import "./App.css";
+import "./Menu.css";
 import Head from "./component/Head.js";
 import Body from "./component/Body";
 import Step from "./component/Step";
 
-function App() {
+function Menu() {
   return (
     <>
       <Head />
@@ -13,4 +13,4 @@ function App() {
   );
 }
 
-export default App;
+export default Menu;
