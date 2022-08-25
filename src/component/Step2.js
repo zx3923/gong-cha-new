@@ -1,17 +1,17 @@
 import React from "react";
 import styles from "./Step2.module.css";
-import img1 from "./img/order_method_img2_1.gif"
-import img2 from "./img/order_method_img2_2.gif"
-import img3 from "./img/order_method_img2_4.gif"
-import img4 from "./img/order_method_img2_3.gif"
-import img5 from "./img/order_method_img2_5.gif"
-import img6 from "./img/order_method_img2_6.gif"
+import img1 from "./img/order_method_img2_1.gif";
+import img2 from "./img/order_method_img2_2.gif";
+import img3 from "./img/order_method_img2_4.gif";
+import img4 from "./img/order_method_img2_3.gif";
+import img5 from "./img/order_method_img2_5.gif";
+import img6 from "./img/order_method_img2_6.gif";
 const Step2 = () => {
   return (
     <>
       <div className={styles.step_2}>
         <div className={styles.step_body}>
-          <div className={styles.step_text}>
+          <div className={styles.step_text} data-aos="fade-right">
             <p>STEP 02</p>
             <p>TOPPINGS</p>
             <p>
@@ -21,7 +21,7 @@ const Step2 = () => {
               (최대 3가지 선택 가능)
             </p>
           </div>
-          <div className={styles.step_imgbox}>
+          <div className={styles.step_imgbox} data-aos="fade-left">
             <ul className={styles.step_img}>
               <li>
                 <p className={styles.teaname}>밀크폼</p>

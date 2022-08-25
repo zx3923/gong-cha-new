@@ -4,27 +4,19 @@ import img1 from "./img/order_method_img1_1.png";
 import img2 from "./img/order_method_img1_3.png";
 import img3 from "./img/order_method_img1_4.png";
 import img4 from "./img/order_method_img1_6.png";
+// import Aos from "aos";
+// import "aos/dist/aos.css";
 
 const Step1 = () => {
-  const [position, setPosition] = useState(0);
-  function onScroll() {
-    setPosition(window.scrollY);
-  }
-  useEffect(() => {
-    window.addEventListener("scroll", onScroll);
-    return () => {
-      window.removeEventListener("scroll", onScroll);
-    };
-  }, []);
   return (
     <>
       <div className={styles.step_1}>
-        <div className={styles.step_text}>
+        <div className={styles.step_text} data-aos="fade-right">
           <p>STEP 01</p>
           <p>TEA MENU</p>
           <p>취향에 맞게 공차의 음료를 고르세요.</p>
         </div>
-        <div className={styles.step_img}>
+        <div className={styles.step_img} data-aos="fade-left">
           <div>
             <img src={img1} alt="" />
             <p className={styles.teaname}>오리지널 티</p>
